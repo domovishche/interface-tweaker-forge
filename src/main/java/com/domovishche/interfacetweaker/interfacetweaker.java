@@ -9,7 +9,7 @@ public class interfacetweaker {
 
     public static final String MODID   = "interfacetweaker";
     public static final String NAME    = "Small Item Tweaker";
-    public static final String VERSION = "0.0.0.0.2-beta";
+    public static final String VERSION = "0.0.0.0.3-beta";
 
     @Mod.Instance
     public static com.domovishche.interfacetweaker.interfacetweaker INSTANCE;

@@ -9,9 +9,6 @@ import java.util.Set;
 
 public final class ModConfig {
 
-    // add this to your other variables
-    public static final String CATEGORY_CLIENT = "client";
-
     private static Configuration config;
 
     // ── Tooltip ID hider ──────────────────────────────────────────────────────
@@ -31,6 +28,11 @@ public final class ModConfig {
      * Format: registry names, e.g. "minecraft:stick"
      */
     public static Set<String> forceGlintItems = new HashSet<>();
+
+    // ── HUD tweaks ────────────────────────────────────────────────────────────
+    /**
+     * When false, the experience bar above the hotbar is not rendered at all.
+     */
 
     public static void init(File configFile) {
         config = new Configuration(configFile);
