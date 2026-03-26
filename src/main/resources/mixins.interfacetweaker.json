@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"minVersion": "0.8.5",
+	"package": "com.domovishche.interfacetweaker.mixin",
+	"plugin": "com.domovishche.interfacetweaker.interfacetweakerConfigPlugin",
+	"refmap": "mixins.interfacetweaker.refmap.json",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"MixinItemStack"
+	]
+}
